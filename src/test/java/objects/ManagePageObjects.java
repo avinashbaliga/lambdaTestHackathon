@@ -5,7 +5,7 @@ import pages.JavascriptAlertsPage;
 import pages.LoginPage;
 
 /**
- * This is a singleton class responsible to return the object of a page
+ * This is a singleton class responsible to return the object of different pages page
  */
 public class ManagePageObjects {
 

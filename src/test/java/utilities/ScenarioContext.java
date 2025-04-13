@@ -3,6 +3,9 @@ package utilities;
 import java.util.HashMap;
 import java.util.Map;
 
+/** The main purpose of this class is to facilitate data sharing between classes/steps.
+ * set method can be used to store the data and get method can be used to get the data from data store*/
+
 public class ScenarioContext {
 
     private static ThreadLocal<Map<String, Object>> data = new ThreadLocal<Map<String, Object>>();

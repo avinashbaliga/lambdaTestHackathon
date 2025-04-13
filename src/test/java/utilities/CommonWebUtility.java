@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+/** Common Web Utility class responsible to perform any action/interaction in a webpage*/
+
 public class CommonWebUtility {
 
     private final WebDriverWait wait;

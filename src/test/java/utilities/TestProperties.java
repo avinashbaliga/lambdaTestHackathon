@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.Set;
 
+/** This class is responsible to load all the properties from testConfig.properties file to System properties so that all properties can be access using System.getProperty*/
+
 public final class TestProperties {
 
     private static final String resourceFile = "src/main/resources/testConfig.properties";
